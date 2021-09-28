@@ -1,0 +1,48 @@
+/* ------------- footer ------------- */
+.footer_style{
+    position: relative;
+    margin-top: 70px;
+    padding-top : 20px;
+    padding-bottom: 20px;
+}
+.ul_a{
+    text-align: center;
+}
+.div_li{
+    display : inline-block;
+	border-right: 1px solid #000;
+    text-align: center;
+}
+.div_li:last-child{
+	border-right: none;
+}
+.div_li a{
+	padding: 0 30px;
+}
+.top_button{
+    position: absolute;
+    top: -50px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+.top_button img{
+    display : block;
+    height: 40px;
+    width: 40px;
+}
+.a_style{
+    text-decoration: none;
+    color : black;
+}
+.div_center{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.div_center_border{
+	border-top: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.div_center_p{
+	padding-top: 25px;
+}

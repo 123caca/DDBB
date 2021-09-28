@@ -1,0 +1,95 @@
+/* ------------- 헤더 ------------- */
+.header {
+    margin-bottom: 70px;
+}
+
+/* ------------- 네비게이션 ------------- */
+.header-nav {
+    position: relative;
+    padding: 0 30px;
+    line-height: 36px;
+    text-align: right;
+    font-size: 14px;
+}
+.header-nav ul {
+    display: inline-block;
+    width: auto;
+    overflow: hidden;
+}
+.header-nav li {
+    float: left;
+}
+.header-nav li a {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+.header-nav li a::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 0;
+    width: 1px;
+    height: 14px;
+    background: #000;
+}
+.header-nav li:last-child a::after {
+    display: none;
+}
+
+.header-nav .header-search {
+    position: relative;
+    margin-left: 20px;
+    float: right;
+}
+.header-nav .header-search input {
+    float: left;
+    margin-top: 9px;
+}
+.header-nav .header-search input:first-of-type {
+    line-height: 18px;
+    border: 1px solid #000;
+}
+.header-nav .header-search input:last-of-type {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    width: 21px;
+    height: 23px;
+}
+.header-nav .header-search img {
+    top: calc(50% - 7px);
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+/* ------------- 배너 텍스트 ------------- */
+.header-txt {
+    padding: 70px 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* ------------- 메뉴 리스트 ------------- */
+.header-menu {
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    line-height: 50px;
+}
+.header-menu li {
+    display: inline-block;
+}
+.header-menu li a {
+    display: inline-block;
+    position: relative;
+    padding: 0 25px;
+}
+.header-menu li a:hover {
+    color: brown;
+}

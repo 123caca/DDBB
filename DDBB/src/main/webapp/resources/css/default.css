@@ -1,0 +1,749 @@
+/* -------------------------------------------------------------- */
+/* --------------------------- main -------------------------- */
+/* -------------------------------------------------------------- */
+.main-wrap {
+	margin-top: -70px;
+}
+.main-con-wrap {
+    width: 920px;
+    margin: 0 auto;
+}
+.main-con-wrap > div {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.main-tit {
+    text-align: center;
+}
+.main-tit h3 {
+    border-top: 2px solid #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main-tit h3 span {
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    padding: 5px 40px;
+    background: #fff;
+}
+.main-tit h3 span::before {
+    position: absolute; 
+    top: 47%; left: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    content: "";
+    width: 4px; height: 4px;
+    background: #000;
+    border-radius: 50%;
+}
+.main-tit h3 span::after {
+    position: absolute; 
+    top: 47%; right: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    content: "";
+    width: 4px; height: 4px;
+    background: #000;
+    border-radius: 50%;
+}
+/* ------------- main slide banner ------------- */
+.main-slide-wrap .slick-slide {
+    width: 100%;
+    height: 500px;
+}
+.main-slide-wrap .slick-slide img {
+    width: 100%;
+}
+.main-slide-wrap .slick-prev {
+    left: 100px;
+    z-index: 1;
+    background: #fff;
+}
+.main-slide-wrap .slick-next {
+    right: 100px;
+    z-index: 1;
+    background: #fff;
+}
+
+/* ------------- main notice ------------- */
+.main-notice-wrap {
+    overflow: hidden;
+}
+.main-notice-wrap > div {
+    width: calc(50% - 40px);
+    float: left;
+}
+.main-notice-wrap .main-sns img {
+    display: block;
+    width: 100%;
+    height: 220px;
+}
+.main-notice-wrap .main-notice {
+    position: relative;
+    float: right;
+    display: block;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: 15px 0;
+    padding: 20px 0;
+}
+.main-notice-wrap .main-notice strong {
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #fff;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+.main-notice-wrap .main-notice strong::before {
+    position: absolute; 
+    top: 47%; left: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    content: "";
+    width: 4px; height: 4px;
+    background: #000;
+    border-radius: 50%;
+}
+.main-notice-wrap .main-notice strong::after {
+    position: absolute; 
+    top: 47%; right: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    content: "";
+    width: 4px; height: 4px;
+    background: #000;
+    border-radius: 50%;
+}
+.main-notice-wrap .main-notice li {
+    position: relative;
+    margin: 0 20px 0;
+    border-bottom: 1px solid #000;
+    line-height: 30px;
+    font-size: 14px;
+}
+.main-notice-wrap .main-notice li::before {
+    display: inline-block;
+    content: "·";
+    margin-right: 10px;
+}
+.main-notice-wrap .main-notice li a {
+    display: inline-block;
+    max-width: 300px;
+}
+.main-notice-wrap .main-notice li span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* ------------- main event ------------- */
+.main-event-wrap {
+    text-align: center;
+}
+.main-event-wrap .main-event {
+    display: inline-block;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+.main-event-wrap .main-event li {
+    width: 207px;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden; 
+}
+.main-event-wrap .main-event li:last-child {
+    margin-right: 0;
+}
+.main-event-wrap .main-event li img {
+    display: block;
+    width: 100%;
+}
+.main-event-wrap .main-event li p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* ------------- main best menu ------------- */
+.main-best-menu {
+}
+.main-best-menu .main-best {
+    overflow: hidden;
+    margin-top: 50px;
+}
+.main-best-menu .main-best li {
+    width: 207px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+.main-best-menu .main-best li:nth-child(4n) {
+    margin-right: 0;
+}
+.main-best-menu .main-best li img {
+    display: block;
+    width: 100%;
+}
+
+
+/* -------------------------------------------------------------- */
+/* ---------------------------- search -------------------------- */
+/* -------------------------------------------------------------- */
+.search-all {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.search-layout {
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+.search-all input {
+    padding: 0 10px;
+    border: 1px solid #000;
+    font-size: 16px;
+}
+.search-all input:first-child {
+    display: inline-block;
+    width: 400px; height: 50px;
+}
+.search-all input:last-child {
+    display: inline-block;
+    width: 50px; height: 50px;
+    background: #fff;
+}
+.search-all img {
+    display: block;
+    width: 32px; height: 30px;
+    top: 10px; right: 8px;
+}
+.search-all .search-result {
+    margin-top: 30px;
+}
+.search-all .search-result span {
+    font-size: 18px;
+    font-weight: bold;
+}
+.search-list {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.search-list .search-tit {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.search-list .search-con {
+    margin-bottom: 20px;
+}
+.search-list .result {
+    color: brown;
+}
+
+/* -------------------------------------------------------------- */
+/* --------------------------- product -------------------------- */
+/* -------------------------------------------------------------- */
+/* ------------- 상품 리스트 (top) ------------- */
+.product-wrap {
+    width: 800px;
+    margin: 50px auto;
+}
+.product-top {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #000;
+}
+
+/* ------------- 상품 리스트 (list) ------------- */
+.product-list .product {
+    overflow: hidden;
+}
+.product-list .product li {
+    width: 24%;
+    float: left;
+    margin-right: 1.3%;
+    margin-bottom: 15px;
+}
+.product-list .product li:nth-child(4n) {
+    margin-right: 0;
+}
+.product-img img {
+    display: block;
+    width: 100%;
+}
+.product-txt {
+    padding: 12px 10px;
+    font-size: 12px;
+}
+.product-txt .price {
+    float: right;
+}
+
+/* ------------- product detail (top) ------------- */
+.product-detail-img {
+    display: inline-block;
+    width: auto;
+}
+.product-detail-img > img {
+    display: block;
+    width: 450px;
+    height: 450px;
+}
+.product-detail-con {
+    width: 400px;
+    float: right;
+}
+.product-detail-con > h3 {
+    margin: 25px 0 40px;
+    font-size: 24px;
+}
+.product-detail-con .product-detail-txt > p {
+    font-size: 16px;
+    line-height: 25px;
+}
+.product-detail-con .product-detail-txt > p:nth-child(2) {
+	float: left;
+}
+.product-detail-con .product-detail-txt p > span {
+    display: inline-block;
+    width: 110px;
+    margin-right: 10px;
+    text-align: right;
+}
+.product-detail-con .product-detail-txt .product-num {
+	margin-top: 3px;
+	float: left;
+}
+.product-detail-con .product-detail-txt .product-num > p {
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #000;
+}
+.product-detail-txt .product-num img {
+    display: block;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+}
+.product-detail-txt .product-num > p:last-child img {
+    transform: rotate(180deg);
+}
+.product-detail-txt .product-total-cost {
+    margin-top: 50px; padding-top: 30px;
+    font-size: 20px; text-align: right; 
+    border-top: 1px solid #000; 
+}
+.product-detail-txt .product-detail-btn {
+    margin-top: 30px;
+}
+.product-detail-txt .product-detail-btn button {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    padding: 0;
+    vertical-align: middle;
+}
+.product-detail-txt .product-detail-btn button:last-child {
+    width: 200px;
+}
+.product-detail-txt .product-detail-btn img {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+/* ------------- product detail (list) ------------- */
+.product .list-layout .tab-menu.sel li {
+	width: 25%;
+}
+.product .product-detail img {
+	display: block;
+	width: 100%;
+}
+.product .board-wrap.product-review {
+	margin: 30px 0;
+}
+.product .board-wrap.product-review td {
+    line-height: 20px;
+	text-align: center;
+	vertical-align: top;
+}
+.product .board-wrap.product-review th:nth-child(1) {
+	width: 10%;
+}
+.product .board-wrap.product-review td:nth-child(1) {
+	width: 10%;
+}
+.product .board-wrap.product-review td:nth-child(2) {
+	width: 10%;
+}
+.product .board-wrap.product-review td:nth-child(3) {
+    width: 48%;
+    text-align: left;
+}
+.product .board-wrap.product-review td:nth-child(4) {
+	width: 10%;
+}
+.product .board-wrap.product-review td:nth-child(5) {
+	width: 11%;
+}
+.product .board-wrap.product-review td:nth-child(2) img {
+	width: 50px;
+	height: 50px;
+}
+.product .board-wrap.product-review td:nth-child(3) p {
+	width: 410px;
+	height: auto;
+    min-height: 50px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    cursor: pointer;
+}
+.mypage .board-wrap.product-review th:nth-child(1) {
+	width: 10%;
+}
+.mypage .board-wrap.product-review td:nth-child(1) {
+	width: 10%;
+}
+.mypage .board-wrap.product-review td:nth-child(2) {
+	width: 20%;
+}
+.mypage .board-wrap.product-review td:nth-child(3) {
+	width: 10%;
+}
+.mypage .board-wrap.product-review td:nth-child(4) {
+    width: 27%;
+    text-align: left;
+}
+.mypage .board-wrap.product-review td:nth-child(5) {
+	width: 11%;
+}
+.mypage .board-wrap.product-review td:nth-child(6) {
+	width: 11%;
+}
+.mypage .board-wrap.product-review td:nth-child(7) {
+	width: 11%;
+}
+.mypage .board-wrap.product-review td:nth-child(3) img {
+	width: 50px;
+	height: 50px;
+}
+.mypage .board-wrap.product-review td:nth-child(4) p {
+	height: auto;
+    min-height: 50px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    cursor: pointer;
+}
+.product .board-wrap.product-review .review-open td:nth-child(3) p {
+	-webkit-line-clamp: initial;
+}
+.product .sort-review {
+	float: right;
+}
+.product .board-wrap.product-qna th:nth-child(1) {
+	width: 15%;
+}
+.product .board-wrap.product-qna td:nth-child(1) {
+	width: 15%;
+}
+.product .board-wrap.product-qna td:nth-child(2) {
+    width: 55%;
+    text-align: left;
+}
+.product .board-wrap.product-qna td:nth-child(3) {
+	width: 15%;
+}
+.product .board-wrap.product-qna td:nth-child(4) {
+	width: 15%;
+}
+
+
+/* -------------------------------------------------------------- */
+/* -------------------------- customer -------------------------- */
+/* -------------------------------------------------------------- */
+/* ------------- 자주하는 질문 (faq) ------------- */
+.faq-wrap {
+    width: 800px;
+    margin: 50px auto;
+}
+.faq-wrap li {
+    border-top: 1px solid #444;
+}
+.faq-wrap li:last-child {
+    border-bottom: 1px solid #444;
+}
+.faq-wrap p {
+    padding: 18px 25px;
+    font-size: 15px;
+}
+.faq-wrap p:last-child {
+    display: none;
+    padding: 30px 50px;
+    border-top: 1px solid #444;
+    font-size: 13px;
+    line-height: 25px;
+}
+.faq-wrap .faq-arrow {
+    position: relative;
+    display: block;
+    float: right;
+}
+.faq-wrap .faq-arrow::before {
+    position: absolute; top: 0; right: 7px;
+    display: block;
+    content: "";
+    width: 1px;
+    height: 10px;
+    background: #000;
+    transform: rotate(45deg);
+}
+.faq-wrap .faq-arrow::after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 10px;
+    background: #000;
+    transform: rotate(-45deg);
+}
+.faq-wrap .faq-arrow.active::before {
+    transform: rotate(135deg);
+}
+.faq-wrap .faq-arrow.active::after {
+    transform: rotate(-135deg);
+}
+
+/* ------------- question write ------------- */
+.customer .question .question-con {
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.customer .question table {
+	margin-right: auto;
+	margin-left: auto;
+}
+.customer .question table, tr, td, th {
+	padding: 10px;
+}
+.customer .question td:first-child {
+    width: 100px;
+}
+.customer .question td {
+	width: 520px;
+}
+.customer .question td > input {
+    width: 93%;
+    line-height: 28px;
+    border: 1px solid #000;
+    padding: 0 10px;
+}
+.customer .question textarea {
+    line-height: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.customer .user_question {
+	width: 520px;
+	height: 350px;
+	resize: vertical;
+}
+.customer .question_open {
+	padding-right: 50px;
+}
+.customer .question .question-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* ------------- question con ------------- */
+.question.answer .content-answer {
+    line-height: 30px;
+}
+.question.answer .content-answer th {
+    width: 100px;
+    border-bottom: 1px solid #cccccc;
+    text-align-last: left;
+    vertical-align: top;
+    line-height: 40px;
+}
+.question.answer .content-answer td {
+    border-bottom: 1px solid #cccccc;
+}
+.question.answer .content-answer tr:first-child td {
+    width: 210px;
+}
+.question.answer .content-answer tr:last-child th {
+    border-bottom: none;
+}
+.question.answer .content-answer tr:last-child td {
+    border-bottom: none;
+}
+.question.answer .content-answer tr p {
+    padding: 5px 20px;
+}
+.question.answer .content-answer .min-height p {
+    min-height: 100px;
+    padding-bottom: 50px;
+}
+.question.answer .question-con {
+    padding: 0;
+}
+.question.answer .content-answer img {
+    display: block;
+    width: 100%;
+} 
+
+/* ------------- notice ------------- */
+.board-wrap.notice-table td {
+    font-size: 14px;
+    padding: 15px 10px;
+}
+.board-wrap.notice-table th:nth-child(1) {
+    width: 10%;
+}
+.board-wrap.notice-table td:nth-child(1) {
+    width: 10%;
+}
+.board-wrap.notice-table td:nth-child(2) {
+    width: 60%;
+    text-align: left;
+}
+.board-wrap.notice-table td:nth-child(3) {
+    width: 10%;
+}
+.board-wrap.notice-table td:nth-child(4) {
+    width: 10%;
+}
+.board-wrap.notice-table td:nth-child(5) {
+    width: 10%;
+}
+
+/* -------------------------------------------------------------- */
+/* ---------------------------- login --------------------------- */
+/* -------------------------------------------------------------- */
+/* ------------- login ------------- */
+.login .login-form {
+    text-align: center;
+}
+.login .login-form p {
+    margin-bottom: 10px;
+}
+.login .login-form p:last-child {
+    margin-top: 10px;
+}
+.login .login-form p > span {
+    display: inline-block;
+    width: 100px;
+}
+.login .login-form .id-remember {
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.login .login-form .id-remember input {
+    width: auto;
+}
+.login .login-form a {
+    vertical-align: middle;
+    font-size: 14px;
+}
+.login .search-id {
+    text-align: center;
+}
+.login .search-id p {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.login .search-id p span {
+    font-weight: bold;
+    color: brown;
+}
+.login .search-pw {
+    text-align: center;
+}
+.login .search-pw div {
+    margin-bottom: 30px;
+}
+.login .search-pw div > span {
+    display: inline-block;
+    width: 180px;
+    margin-right: 15px;
+    vertical-align: text-top;
+    text-align: right;
+}
+.login .search-pw div input {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    line-height: 28px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+/* ------------- join agree ------------- */
+.join_agree .join_agree_img {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.join_agree .join_agree_img img {
+    display: inline-block;
+    width: 480px;
+}
+.join_agree .join_agree_con .agree_con_tit {
+    padding: 15px;
+    line-height: 30px;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.join_agree .join_agree_con .agree_con_tit span {
+    display: inline-block;
+    margin-right: 30px;
+}
+.join_agree .join_agree_con p {
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #000;
+    line-height: 28px;
+}
+.join_agree .join_agree_con .agree_btn {
+    text-align: center;
+}
+
+/* ------------- join fin ------------- */
+.join_fin {
+    margin: 50px 0;
+    text-align: center;
+}
+.join_fin img{
+	display: inline-block;
+	width:480px;
+	height:154px;
+}
+.join_fin h3 {
+    font-size: 20px;
+    margin: 50px 0 30px;
+}

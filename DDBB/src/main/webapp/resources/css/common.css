@@ -1,0 +1,326 @@
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.right.top {
+    top: 7px;
+}
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left.top {
+    top: 7px;
+}
+.cursor {
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+}
+textarea {
+	padding: 10px;
+}
+    
+/* ------------- btn layout ------------- */
+.btn {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}
+.btn.blue {
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+.btn.red {
+    border: 1px solid firebrick;
+    color: firebrick;
+}
+.btn.orange {
+    border: 1px solid sandybrown;
+    color: sandybrown;
+}
+.btn.small {
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.btn.large {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* ------------- board layout ------------- */
+.board-wrap {
+    position: relative;
+    margin: 50px 0;
+    padding: 0 50px;
+}
+.board-wrap.buy-list-info {
+	padding: 0;
+}
+.board-wrap.buy-list-con {
+	padding: 0;
+}
+.board-wrap table {
+    width: 100%;
+    margin: 0 auto;
+}
+.board-wrap th {
+    padding: 15px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.board-wrap td {
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+.board-wrap th:nth-child(1) {
+    width: 7%;
+}
+.board-wrap td:nth-child(1) {
+    width: 7%;
+}
+.board-wrap td:nth-child(2) {
+    width: 50%;
+    text-align: left;
+}
+.board-wrap td:nth-child(3) {
+    width: 13%;
+}
+.board-wrap td:nth-child(4) {
+    width: 15%;
+}
+.board-wrap td:nth-child(5) {
+    width: 15%;
+}
+.board-wrap .select-wrap {
+    margin-bottom: 20px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+/* ------------- content-wrap ------------- */
+.content-wrap {
+    width: 920px;
+    margin: 70px auto;
+}
+.content-wrap .content-title {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.content-wrap .content-title h2 {
+    font-size: 25px;
+}
+.content-wrap .page-location {
+    position: absolute;
+    top: -55px;
+    right: 0;
+}
+.content-wrap .page-location img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.content-wrap .page-location p {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    
+}
+
+/* ------------- 페이지 숫자 ------------- */
+.page-wrap {
+    position: relative;
+    margin: 40px 0;
+    text-align: center;
+}
+.page-wrap .page {
+    display: inline-block;
+    width: auto;
+}
+.page-wrap li {
+    float: left;
+}
+.page-wrap a {
+    padding: 15px;
+}
+.page-wrap a:hover {
+    color: brown;
+}
+.page-wrap .active {
+    color: brown;
+}
+    
+/* ------------- select layout ------------- */
+.select-wrap select {
+    width: 130px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #000;
+    vertical-align: middle;
+}
+
+/* ------------- search ------------- */
+.con-search-wrap {
+    text-align: center;
+    margin: 50px 0;
+}
+.con-search {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.con-search input {
+    float: left;
+}
+.con-search input:first-of-type {
+    padding-left: 7px;
+    line-height: 26px;
+    border: 1px solid #000;
+}
+.con-search input:last-of-type {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+.con-search img {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #fff;
+}
+.con-search .select-wrap {
+    float: left;
+    margin-right: 10px;
+}
+
+/* ------------- list layout ------------- */
+.list-layout {
+    margin: 50px 0;
+}
+.list-layout .tab-menu {
+    margin: 50px 0;
+}
+.list-layout .tab-menu ul {
+    overflow: hidden;
+}
+.list-layout .tab-menu li {
+    width: 25%;
+    padding: 15px;
+    float: left;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #000;
+    border-right: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.list-layout .tab-menu li.active {
+    border: 1px solid #000;
+    border-bottom: #fff;
+}
+.list-layout .tab-title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* ------------- input-wrap ------------- */
+.input-wrap {
+    margin: 50px 0;
+}
+.input-wrap .input-title {
+    padding: 15px;
+    line-height: 30px;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.input-wrap table {
+    width: 100%;
+}
+.input-wrap .input-content th {
+    width: 130px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 8px 15px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+.input-wrap .input-content td {
+    padding: 8px 15px;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+.input-wrap .input-content input {
+    width: 170px;
+    padding: 0 10px;
+    border: 1px solid #000;
+    line-height: 28px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.input-wrap .input-content input.small {
+    width: 100px;
+}
+.input-wrap .input-content input.grande {
+    width: 200px;
+}
+.input-wrap .input-content input.mid {
+    width: 320px;
+}
+.input-wrap .input-content input.long {
+    width: 400px;
+}
+.input-wrap .input-content .select-wrap {
+    display: inline-block;
+}
+.input-wrap .address {
+    line-height: 40px;
+}
+.input-wrap .address .btn {
+    line-height: 21px;
+}
+
+/* ------------- statement ------------- */
+.statement {
+    height: 500px;
+    overflow-y: scroll;
+    padding: 30px;
+    border: 1px solid #000;
+	font-size: 14px;
+    line-height: 25px;
+}
+
+
+/* ------------- 이미지 확장자 ------------- */
+.img-notice {
+    margin-top: 5px;
+    font-size: 12px;
+    color: red;
+}
+
+
+
+/* -------------  ------------- */
+/* -------------  ------------- */
+/* -------------  ------------- */
+/* -------------  ------------- */

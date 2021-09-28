@@ -1,0 +1,313 @@
+/* ------------- my page ------------- */
+.mypage .mypage-list .line {
+	padding: 0 0 30px;
+    border-right: 1px solid #000;
+    margin: 25px 0;
+}
+.mypage .mypage-list td:last-child .line {
+    border-right: none;
+}
+.mypage .mypage-list {
+	width: 100%;
+	text-align: center;
+}
+.mypage .mypage-list img {
+	display: inline-block;
+    width: 130px;
+    height: 130px;
+    vertical-align: middle;
+}
+.mypage .mypage-list p {
+    margin-top: -15px;
+}
+
+/* ------------- user info ------------- */
+.mypage .user_info {
+    width: 100%;
+    text-align: center;
+}
+.mypage .user_info .line {
+    padding: 30px 0;
+    border-right: 1px solid #000;
+}
+.mypage .user_info img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+.mypage .user_info p {
+    margin-top: 15px;
+}
+
+/* ------------- user_delete ------------- */
+.user_delete {
+    text-align: center;
+}
+.user_delete label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.user_delete .search-pw {
+    text-align: center;
+}
+.user_delete .search-pw div {
+    margin-bottom: 30px;
+}
+.user_delete .search-pw div > span {
+    display: inline-block;
+    width: 180px;
+    margin-right: 15px;
+    vertical-align: text-top;
+    text-align: right;
+}
+.user_delete .search-pw div input {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    line-height: 28px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+/* ------------- user_delete_chk ------------- */
+.user_delete_chk .delete_con {
+    text-align: center;
+}
+.user_delete_chk .delete_con h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* ------------- wish list ------------- */
+.wish .board-wrap.wish-board td{
+	text-align: center;
+	vertical-align: middle;
+}
+.wish .board-wrap.wish-board img {
+	display: block;
+	width: 100px;	
+}
+.wish .board-wrap.wish-board th:nth-child(1) {
+    width: 7%;
+}
+.wish .board-wrap.wish-board td:nth-child(1) {
+    width: 7%;
+}
+.wish .board-wrap.wish-board td:nth-child(2) {
+    width: 20%;
+}
+.wish .board-wrap.wish-board td:nth-child(3) {
+    width: 43%;
+    text-align: left;
+}
+.wish .board-wrap.wish-board td:nth-child(4) {
+    width: 15%;
+}
+.wish .board-wrap.wish-board td:nth-child(5) {
+    width: 15%;
+}
+.wish .wish-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* ------------- cart ------------- */
+.board-wrap.cartcolumn td{
+	text-align: center;
+	vertical-align: middle;
+ }
+.board-wrap.cartcolumn th:nth-child(1) {
+    width: 7%;
+}
+.board-wrap.cartcolumn td:nth-child(1) {
+    width: 7%;
+}
+.board-wrap.cartcolumn td:nth-child(2) {
+    width: 11%;
+}
+.board-wrap.cartcolumn td:nth-child(3) {
+    width: 27%;
+}
+.board-wrap.cartcolumn td:nth-child(4) {
+    width: 14%;
+}
+.board-wrap.cartcolumn td:nth-child(5) {
+    width: 14%;
+}
+.board-wrap.cartcolumn td:nth-child(6) {
+    width: 14%;
+}
+.board-wrap.cartcolumn td:nth-child(7) {
+    width: 14%;
+}
+.board-wrap.cartcolumn td:nth-child(2) img{
+    width: 50px;
+    height: 50px;
+} 
+.board-wrap.cartcolumn td:nth-child(5) img{
+    width: 10px;
+    height: 10px;
+} 
+.cart-price {
+	float: right; 
+	padding-top: 10px;
+}
+.board-wrap.buy-list-con.cart-total {
+	padding-top: 50px;
+ }
+.cart-total th {
+    line-height: 30px;
+    font-weight: bold;
+}
+.cart-total td {
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 35px;
+    padding-top: 35px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+ }
+.cart-total td:nth-child(1) {
+    width: 30%;
+}
+.cart-total td:nth-child(2) {
+    width: 30%;
+    text-align: center;
+}
+.cart-total td:nth-child(3) {
+    width: 40%;
+}
+
+.cart-btn {
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* ------------- buy ------------- */
+.buy-all .content-wrap .content-title.buy-title {
+	margin-bottom: 0;
+}
+.buy-all .input-wrap .input-title.buy-ptag {
+	font-size: 16px;
+	padding-top: 50px;
+}
+.buy-all .next-way {
+	font-size: 12px;
+}
+.buy-all .cart-total {
+	padding-top: 0;
+}
+.buy-all .buy-total {
+	margin: 0;
+}
+.buy-all .buy-total th {
+	border-top: 0;
+}
+.buy-all .buy-way {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.buy-all .buy-center {
+	margin-top: 30px;
+	text-align: center;
+}
+
+/* ------------- buy list ------------- */
+.buy-date{
+	padding-bottom: 35px;
+}
+.buy-date span{
+	padding-right: 20px;
+}
+.buy-htag p{
+	padding-bottom: 15px;
+	font-size: 18px;
+} 
+.board-wrap.buy-list-info td {
+	vertical-align: middle;
+
+}
+.board-wrap.buy-list-info td:nth-child(1) {
+    width: 20%;
+}
+.board-wrap.buy-list-info td:nth-child(2) {
+    width: 12%;
+    text-align: center;
+}
+.board-wrap.buy-list-info td:nth-child(3) {
+    width: 26%;
+    text-align: left;
+}	
+.board-wrap.buy-list-info td:nth-child(4) {
+    width: 12%;
+}
+.board-wrap.buy-list-info td:nth-child(5) {
+    width: 15%;
+}
+.board-wrap.buy-list-info td:nth-child(6) {
+    width: 15%;
+}
+.board-wrap.buy-list-info td:nth-child(2) img{
+    width: 50px;
+    height: 50px;
+}
+
+/* ------------- buy list con ------------- */
+.board-wrap.buy-list-con .buy-list-tit {
+    margin-bottom: 20px;
+}
+.board-wrap.buy-list-con .buy-list-tit p {
+    margin-bottom: 15px;
+}
+.board-wrap.buy-list-con td {
+    vertical-align: middle;
+}
+.board-wrap.buy-list-con td:nth-child(1) {
+    width: 20%;
+}
+.board-wrap.buy-list-con td:nth-child(2) {
+    width: 25%;
+    text-align: center;
+}
+.board-wrap.buy-list-con td:nth-child(3) {
+    width: 10%;
+}
+.board-wrap.buy-list-con td:nth-child(4) {
+    width: 10%;
+}
+.board-wrap.buy-list-con td:nth-child(5) {
+    width: 10%;
+}
+.board-wrap.buy-list-con td:nth-child(6) {
+    width: 25%;
+}
+
+/* ------------- review write ------------- */
+.rewrite table {
+	margin-right: auto;
+	margin-left: auto;
+}
+.rewrite table, tr, td, th {
+	padding: 10px;
+}
+.review {
+	width: 520px;
+	height: 350px;
+	resize: vertical;
+}
+.rewrite img {
+	display: inline-block;
+	width: 80px;
+	height: 18px;
+	vertical-align: middle;
+}
+.rewrite input {
+	vertical-align: middle;
+}
+
+.board-wrap.notice-table td {
+    padding: 15px 10;
+}
+
