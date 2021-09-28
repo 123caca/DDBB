@@ -1,0 +1,26 @@
+/* ------------- 네비게이션 ------------- */
+.header-nav {
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 100%;
+    padding: 30px;
+    font-size: 14px;
+    border-right: 1px solid #000;
+}
+.header-nav .search {
+    margin-bottom: 20px;
+}
+.header-nav .header-menu p {
+    line-height: 40px;
+    font-weight: bold;
+}
+.header-nav .header-sub-menu {
+    margin-bottom: 20px;
+}
+.header-nav li {
+    line-height: 24px;
+}
+.header-nav li a {
+    padding: 0 10px;
+}

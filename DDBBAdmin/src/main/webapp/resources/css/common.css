@@ -1,0 +1,323 @@
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.right.top {
+    top: 7px;
+}
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left.top {
+    top: 7px;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.container {
+    width: 1000px;
+    margin-left: 240px;
+    padding: 30px;
+    border-left: 1px solid #000;
+}
+.container > h1 {
+    margin: 20px 0 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+    font-size: 30px;
+}
+    
+/* ------------- btn layout ------------- */
+.btn {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 30px;
+}
+.btn.blue {
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+.btn.red {
+    border: 1px solid firebrick;
+    color: firebrick;
+}
+.btn.orange {
+    border: 1px solid sandybrown;
+    color: sandybrown;
+}
+.btn.h_small {
+    line-height: 26px;
+}
+.btn.small {
+    width: 70px;
+    font-size: 12px;
+}
+.btn.mid {
+    width: 100px;
+    font-size: 12px;
+}
+.btn.large {
+    width: 200px;
+    font-size: 14px;
+}
+
+/* ------------- btn-wrap ------------- */
+.btn-wrap {
+    margin: 40px 0 20px;
+}
+
+
+/* ------------- input layout ------------- */
+.input.s_small {
+    width: 100px;
+}
+.input.small {
+    width: 150px;
+}
+.input.s_mid {
+    width: 200px;
+}
+.input.mid {
+    width: 250px;
+}
+.input.l_mid {
+    width: 300px;
+}
+.input.s_large {
+    width: 350px;
+}
+.input.large {
+    width: 500px;
+}
+.input-file {
+    padding: 0 !important;
+}
+
+/* ------------- input-wrap ------------- */
+.input-wrap {
+    margin: 20px 0;
+}
+.input-wrap > span {
+    display: inline-block;
+    width: 100px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+.input-wrap input {
+    padding: 0 10px;
+    border: 1px solid #000;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.input-wrap > textarea {
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #000;
+    vertical-align: text-top;
+}
+.input-wrap > p {
+    margin: -27px 0 0 100px;
+    line-height: 20px;
+    font-size: 14px;
+}
+    
+/* ------------- select layout ------------- */
+.select-wrap {
+    display: inline-block;
+    margin-right: 5px;
+}
+.select-wrap select {
+    width: 100px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #000;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+/* ------------- list layout ------------- */
+.list-layout {
+    margin: 50px 0;
+}
+.list-layout .tab-menu {
+    margin: 50px 0;
+}
+.list-layout .tab-menu ul {
+    overflow: hidden;
+}
+.list-layout .tab-menu li {
+    width: 25%;
+    padding: 15px;
+    float: left;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #000;
+    border-right: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.list-layout .tab-menu li.active {
+    border: 1px solid #000;
+    border-bottom: #fff;
+}
+.list-layout .tab-title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* ------------- table layout ------------- */
+.table-wrap {
+    position: relative;
+    margin: 20px 0;
+}
+.table-wrap table {
+    width: 100%;
+    margin: 0 auto;
+}
+.table-wrap th {
+    padding: 15px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.table-wrap td {
+    padding: 10px 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+
+/* ------------- 페이지 숫자 ------------- */
+.page-wrap {
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+}
+.page-wrap .page {
+    display: inline-block;
+    width: auto;
+}
+.page-wrap .page li {
+    float: left;
+}
+.page-wrap .page a {
+    display: block;
+    padding: 15px;
+}
+.page-wrap .page a:hover {
+    color: brown;
+}
+
+/* ------------- search ------------- */
+.search {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.search input {
+    float: left;
+}
+.search input:first-of-type {
+    padding: 0 10px;
+    line-height: 28px;
+    border: 1px solid #000;
+}
+.search input:last-of-type {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+.search img {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+/* ------------- chk-box ------------- */
+.chk-box {
+    margin: 20px 0;
+}
+.chk-box p {
+    width: 100px;
+    float: left;
+}
+.chk-box label {
+    margin-right: 25px;
+}
+
+/* ------------- con-top ------------- */
+.con-top {
+	width: 1000px;
+	float: right;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.con-top.btn1 {
+	width: 924px;
+}
+.con-top.btn2 {
+	width: 848px;
+}
+.con-top .search {
+    float: left;
+    margin-left: 5px;
+}
+.con-top .btn-wrap {
+    float: left;
+    margin-top: 0;
+    margin-right: 5px;
+}
+.con-top .select-wrap {
+    float: left;
+    margin-top: 0;
+    margin-right: 1px;
+}
+.con-top .select-wrap.sort {
+    float: right;
+    margin-left: 15px;
+}
+.con-top > p {
+    float: right;
+    vertical-align: bottom;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/* ------------- paging-wrap ------------- */
+.paging-wrap {
+    /* text-align: center; */
+}
+.paging-wrap button {
+    background: none;
+    border: none;
+}
+.paging-wrap button:focus {
+    border: none;
+}
+.paging-wrap a {
+    padding: 5px 7px;
+    vertical-align: middle;
+}
+
+/* ------------- 이미지 경고 ------------- */
+.input-wrap .img-notice {
+    margin: 0 0 0 100px;
+    font-size: 12px;
+    color: red;
+}
